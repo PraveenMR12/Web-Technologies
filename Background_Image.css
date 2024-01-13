@@ -1,0 +1,34 @@
+div{
+   margin-top: 100px;
+   margin-left: 400px;
+    height: 400px;
+    width: 600px;
+    border-left: 4px dotted violet;
+    border-top: 4px dashed burlywood;
+    border-right: 5px double #cbf10d;
+    border-bottom: 5px groove rgb(21, 243, 243);
+    background-image: url("/Images/RETROWAVE-OASIS-33331.png");
+    background-size: cover;
+    border-bottom-left-radius: 60px;
+    border-top-right-radius: 60px;
+}
+h1{
+    background-image: url("/Images/header.jpg");
+    height: 70px;
+    color: antiquewhite;
+    font-size: 60px;
+
+}
+
+body{
+    background-image: url("/Images/painting-mountain-lake-with-mountain-background_188544-9126.jpeg");
+    background-size: cover;
+}
+p{
+    font-size: 30px;
+    font-family: Cambria;
+    color: bisque;
+    text-align: center;
+    padding-top: 120px;
+
+}

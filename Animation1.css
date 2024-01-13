@@ -1,0 +1,54 @@
+p {
+  background-color: aqua;
+  height: 300px;
+  width: 300px;
+  animation: colorchange 5s 1ms infinite;
+  position: relative;
+  border-radius: 300px;
+}
+img{
+  border: #df6363;
+  border-radius: 25px;
+  height: 280px;
+  width: 280px;
+  border-radius: 280px;
+  margin: 10px;
+}
+
+@keyframes colorchange {
+  0% {
+    background-color: bisque;
+    left: 0px;
+    top: 0px;
+
+  }
+  16% {
+    background-color: #fa291e;
+    left: 300px;
+    top: 0px;  }
+  32% {
+    background-color: hsl(322, 94%, 52%);
+    left: 600px;
+    top: 0px;  }
+  48% {
+    background-color: #139aee;
+    left: 600px;
+    top: 300px;
+  }
+  64% {
+    background-color: hsl(303, 96%, 52%);
+    left: 300px;
+    top: 300px;
+  }
+  80% {
+    background-color: #1df368;
+    left: 0px;
+    top: 300px;
+  }
+  100% {
+    background-color: #f77f1d;
+    left: 0px;
+    top: 0px;
+  }
+
+}

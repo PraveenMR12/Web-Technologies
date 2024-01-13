@@ -1,0 +1,101 @@
+
+p{
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+    position: relative;
+    background-color: magenta;
+    animation: colorchange 7s infinite;
+
+}
+img{
+    height: 280px;
+    width: 280px;
+    border-radius: 280px;
+    margin: 10px;
+
+}
+.anime{
+    height: 600px;
+    width: 1000px;
+    border: solid 5px black;
+    background-color: antiquewhite;
+}
+div:hover{
+    background-color: #0b6d6d;
+    border: solid 5px rosybrown;
+}
+div:hover p{
+    animation: nomove 7s;
+}
+
+@keyframes colorchange {
+    0% {
+      background-color: bisque;
+      left: 0px;
+      top: 0px;
+  
+    }
+    16% {
+      background-color: #fa291e;
+      left: 300px;
+      top: 0px;  }
+    32% {
+      background-color: hsl(322, 94%, 52%);
+      left: 600px;
+      top: 0px;  }
+    48% {
+      background-color: #139aee;
+      left: 600px;
+      top: 300px;
+    }
+    64% {
+      background-color: hsl(303, 96%, 52%);
+      left: 300px;
+      top: 300px;
+    }
+    80% {
+      background-color: #1df368;
+      left: 0px;
+      top: 300px;
+    }
+    100% {
+      background-color: #f77f1d;
+      left: 0px;
+      top: 0px;
+    }
+}
+
+@keyframes nomove {
+    0% {
+        background-color: bisque;
+        left: 0px;
+        top: 0px;
+    
+      }
+      16% {
+        background-color: #fa291e;
+       
+     }
+      32% {
+        background-color: hsl(322, 94%, 52%);
+       
+     }
+      48% {
+        background-color: #139aee;
+        
+      }
+      64% {
+        background-color: hsl(303, 96%, 52%);
+      
+      }
+      80% {
+        background-color: #1df368;
+      
+      }
+      100% {
+        background-color: #f77f1d;
+       
+      }
+    
+}

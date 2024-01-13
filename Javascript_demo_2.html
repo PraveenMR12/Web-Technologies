@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script>
+        function function1(){
+            console.log("This is javascript");
+            var a=32;
+            console.log(typeof(a));
+            let b = 32;
+            const c =2;
+            {
+                let b = 45;
+                var a = 45;
+                console.log("Inside the block using let : b="+b);
+                console.log("Inside the block using var : a="+a);
+
+            }
+            console.log("Outside the block using let : b="+b);
+            console.log("Outside the block using var : a="+a);
+            <!-- c=23; -->
+            console.log("After try to change the const variable c: 2 to 23 ="+c)
+
+        }
+    </script>
+</head>
+<body onload="function1()">
+    
+</body>
+</html>

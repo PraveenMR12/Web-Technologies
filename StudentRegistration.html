@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="StudentRegistration.css" type="text/css" />
+  </head>
+  <body>
+    <div class="studentheader">
+      <h2 id="header">Student Registration</h2>
+      <form id="studentform" action="">
+        <label for="studentname">Name</label>
+        <input type="text" name="studentname" id="studentname" required />
+
+        <label for="usn">USN</label>
+        <input type="text" id="usn" name="usn" required />
+
+        <label for="branch">Branch</label>
+        <select id="branch" name="cars">
+          <option value="" selected></option>
+          <option value="CSE">Computer Science and Engineering</option>
+          <option value="EC">Electronic's & Comunication</option>
+          <option value="CV">Civil Engineering</option>
+          <option value="ME">Mechanical Engineering</option>
+        </select>
+
+        <label for="yearofpassout">Year Of Passout</label>
+        <input type="year" id="yearofpassout" name="yearofpassout" required />
+
+        <label for="cgpa">CGPA</label>
+        <input type="text" id="cgpa" name="cgpa" required />
+
+        <label for="dob">DOB</label>
+        <input type="date" id="dob" name="dob" required />
+
+        <label for="mobile">Mobile</label>
+        <input type="tel" id="mobile" name="mobile"  required />
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" required />
+
+        <label for="gender">Gender</label>
+        <input type="text" id="gender" name="gender" required />
+
+        <label for="address">Address</label>
+        <input type="text" id="address" name="address" required />
+
+        <label class="m1" for="mode">Mode Of Classes</label><br />
+        <input class="m2" type="radio" id="modeofclasses" name="Mode Of Classes" value="online" required/>
+        <label class="mode" for="online">Online</label>
+        <input class="m2" type="radio" id="modeofclasses" name="Mode Of Classes"  value="offline" required />
+        <label class="mode" for="Offline">Ofline</label>
+
+        <label class="c1" for="coursetype">Course Type</label>
+        <input class="c2" type="radio" id="modeofclasses" name="Course Type" value="MCP1" required />
+        <label class="course" for="MCP1">MCP1</label>
+        <input class="c2" type="radio" id="modeofclasses" name="Course Type" value="MCP2" required />
+        <label class="course" for="MCP2">MCP2</label>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

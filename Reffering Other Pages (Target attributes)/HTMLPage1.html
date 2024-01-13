@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Target attributes in Anchor</h1>
+    <hr />
+    <iframe
+      srcdoc="
+        <a href='../iFrame.html' target='iframe1'>Link1<a><br>
+        <a href='../Forth_Page_Image.html' target='iframe1'>Link2<a><br>
+        <a href='../Confetti-Ghost-(Gospeljingle.com).mp3' target='iframe1'>Link3<a><br>
+        <a href='../images/Google.png' target='iframe1'>Link4<a><br>
+        <a href='../Images/Kodnest.png' target='iframe1'>Link5<a><br>
+        <a href='../iFrame.html' target='_blank'>Link6<a><br>
+        <a href='../Forth_Page_Image.html' target='_blank'>Link7<a><br>
+        <a href='../iFrame.html' target='_parent'>Link8<a><br>
+        <a href='../Forth_Page_Image.html' target='_parent'>Link9<a><br>
+        <a href='../iFrame.html' target='_self'>Link10<a><br>
+        <a href='../Images/Nitro_Wallpaper_5000x2813.jpg' target='_self'>Link11<a><br>
+        "
+      frameborder="2" height="400" width="700"
+    ></iframe>
+
+    <iframe name="iframe1" frameborder="2" height="400" width="700"></iframe>
+  </body>
+</html>
